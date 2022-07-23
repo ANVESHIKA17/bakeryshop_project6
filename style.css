@@ -13,6 +13,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    scroll-behavior: smooth;
 }
 html{
     font-size: 62.5%;   
@@ -103,7 +104,7 @@ html::-webkit-scrollbar-thumb{
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url("../back.png") no-repeat;
+        background: url(./images/back.png) no-repeat;
         background-size: cover;
         background-position: center center;
 
@@ -250,7 +251,7 @@ html::-webkit-scrollbar-thumb{
     }
      
     .newsletter{
-        background: url(../111526-light-color-blurred-background-vector.jpg) no-repeat;
+        background: url(./images/111526-light-color-blurred-background-vector.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
